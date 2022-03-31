@@ -5,6 +5,8 @@ The Matlab sripts and functions are provided to reproduce all the
 figures and explore the regulatory phenotypes of the four toy-models
 illustrated in the review.
 
+The code has been tested on MATLAB R2020a.
+
 One can find in the repository the following piece of codes:
 1. Functions to build the state rate matrix (Laplacian matrix of the
     master equation) for each model as a function of input parameters.
