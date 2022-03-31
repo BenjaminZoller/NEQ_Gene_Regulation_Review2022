@@ -109,7 +109,7 @@ close all
 % Targeted level of expression
 E0 = 0.5;
 
-% Optimal kq at E=0.5, see lines 576-583 below for computation
+% Optimal kq at E=0.5, see lines 594-601 below for computation
 kq_opti = 2.4392;
 [~,k] = min(abs(kq-kq_opti));
 
@@ -574,19 +574,6 @@ for i=1:Nu
         
         PHI(i,j) = getNoise(M,Ip,tp);
         
-%         Mr = M;
-%         N = size(Mr,1)-1;
-%         k0 = Mr(1:N,end);
-%         Mr = Mr(1:N,1:N) - k0*ones(1,N);
-%         
-%         sn = P(1)*(1-P(1));
-%         v0 = [1,0];
-%         v1 = zeros(N,1);
-%         v1(1) = sn;
-%         v1(2) = -P(1)*P(2);
-% 
-%         PHI(i,j) = v0*((eye(N)-tp*Mr)\v1)/sn;
-
         % Analytical solution for non-specific expression
         P = zeros(3,1);
         P(3) = ku_ns^2+kq(j)*ku_ns;
