@@ -10,6 +10,12 @@ function [P,Dph,S,K,Resid] = computePheno(M,Ip,W)
 %   network M (the Laplacian matrix), a logical vector Ip defining which
 %   states are considered active and a time/frequency vector W over which to
 %   compute the dynamical phenotypes.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree. 
 
 % The steady state probabilities and the propagated noise Phi are obtained
 % by solving the master equation with lhs (time derivative) set to zero.

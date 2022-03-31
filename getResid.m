@@ -11,6 +11,12 @@ function [m1T,s1T] = getResid(M,Ip,P)
 %   it is highly recommended if there are more than 1 active state (sum(Ip)>1).
 %   Otherwise the residence time might be inccorect, as the system will be
 %   assumed to have just settled in the first Ip state.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % Residence time pdf is given by continuous phase-type distribution.
 % Further explanation can be found in 

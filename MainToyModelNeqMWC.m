@@ -1,5 +1,11 @@
 %% Main script to generate Fig. 3
 %%% Compute phenotypes of the non-equilibrium MWC model
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 clear
 clc
 close all

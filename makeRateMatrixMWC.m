@@ -14,6 +14,12 @@ function [M,configBound,configTF,configLink] = ...
 %   the Mediator binding rate k_bindM, the Mediator unbinding rates
 %   k_unbindM, the cooperativity parameter alpha and the number of TF
 %   binding sites n.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 m = 2^(1+n);
 M = zeros(m,m);

@@ -3,6 +3,12 @@ function [M] = makeRateMatrixCycle(wf,wb)
 %the master equation) for the cycle model in Fig. 1.
 %   [M] = makeRateMatrixCycle(wf,wb) returns the state rate matrix of 
 %   the reaction network M, given the forward rate wf and backward rate wb.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 N = length(wf);
 if N > 2

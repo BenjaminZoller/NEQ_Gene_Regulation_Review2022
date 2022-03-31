@@ -1,5 +1,11 @@
 %% Main script to generate Fig. 2 left
 %%% Compute phenotypes of the proof-reading model
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 clear
 clc
 close all
@@ -109,7 +115,7 @@ close all
 % Targeted level of expression
 E0 = 0.5;
 
-% Optimal kq at E=0.5, see lines 594-601 below for computation
+% Optimal kq at E=0.5, see lines 600-607 below for computation
 kq_opti = 2.4392;
 [~,k] = min(abs(kq-kq_opti));
 

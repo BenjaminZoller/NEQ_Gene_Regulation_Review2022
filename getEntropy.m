@@ -6,6 +6,12 @@ function [S,K] = getEntropy(M,P)
 %   1976. The function takes as input the state rate matrix of the reaction 
 %   network M (the Laplacian matrix) and the steady state occupancies P of
 %   the model.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % The derivation of the entropy production can be found in 
 % Schnakenberg 1976, DOI:https://doi.org/10.1103/RevModPhys.48.571

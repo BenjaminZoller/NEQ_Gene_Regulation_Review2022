@@ -7,6 +7,12 @@ function [Phi] = getNoise(M,Ip,tp)
 %   states are considered active (leads to expression) and a filtering
 %   time scale tp, which typically corresponds to the mean lifetime of
 %   the expressed molecules (mRNAs or proteins).
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % The derivation of the propagated noise Phi can be found in 
 % Grah et al. 2020, DOI:10.1073/pnas.2006731117 

@@ -6,6 +6,12 @@ function [E,P] = getExp(M,Ip)
 %   model. The function takes as input the state rate matrix of the reaction 
 %   network M (the Laplacian matrix) and a logical vector Ip defining which
 %   states are considered active
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % The steady state probabilities are obtained by solving the master
 % equation with lhs (time derivative) set to zero.

@@ -5,6 +5,12 @@ function [T] = getResidMWC(alpha,ku,eL,E0,N)
 %   T given the coopertivity parameter alpha, the TF unbinding rate ku,
 %   the Mediator rate ratio eL = kb_M/ku_M, the targeted expression level
 %   E0 and the number of TF binding sites N.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % The analytical solution can be found in 
 % Grah et al. 2020, DOI:10.1073/pnas.2006731117

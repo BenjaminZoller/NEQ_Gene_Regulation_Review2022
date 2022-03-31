@@ -9,6 +9,12 @@ function [M,X,V,E] = makeRateMatrixCooperativity(kb,ku,co)
 %   network). The function takes as input the TF binding rate kn, the TF
 %   unbinding rate ku, and a cooperativity vector whose length is equal to
 %   the number of TF binding sites.
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 %given the TF binding rate kb, the TF unbinding
 %   rate ku, and the proof-reading rate kq.

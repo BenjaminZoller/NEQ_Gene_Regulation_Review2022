@@ -13,6 +13,12 @@ function [S,T] = genStoTrajectories(M,Ip,kr,dt,tend,k0)
 %   represent the trajectory, a total duration tend for the trajectory, and
 %   an optional initial state k0 (if not provided, k0 will be drawn from
 %   the steady state probability).
+%
+%   Copyright (c) 2022, Benjamin Zoller
+%   All rights reserved.
+%
+%   This source code is licensed under the MIT license found in the
+%   LICENSE file in the root directory of this source tree.
 
 % Compute the number of reactions Nr involved in the network
 % Also add one reaction per active state for molecule production
