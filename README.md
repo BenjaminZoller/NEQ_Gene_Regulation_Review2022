@@ -1,5 +1,6 @@
 # NEQ_Gene_Regulation_Review2022
 Simulation code for toy-models
+------------------------------
 
 The Matlab sripts and functions are provided to reproduce all the
 figures and explore the regulatory phenotypes of the four toy-models
