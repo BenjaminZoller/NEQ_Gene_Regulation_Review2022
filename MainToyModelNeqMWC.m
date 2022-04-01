@@ -163,7 +163,13 @@ parfor i=1:Np
             end
             
             %%% Build equivalent equ model achieving same expression 
-            % level E0 and same TF residence time T.            
+            % level E0 and same TF residence time T.
+            % Below we use analytical solutions for most of the phenotypes
+            % since the equ-MWC model is tractable. However, one could
+            % compute the phenotypes numericaly using the provided
+            % functions.
+            % For more details on the derivation of these solutions, see
+            % Grah et al. 2020, DOI:10.1073/pnas.2006731117
             myfun3 = @(x) log(getResidMWC(exp(x),ku,eL,E0,N))-log(T);
             
             if myfun3(A1)*myfun3(A2) < 0
